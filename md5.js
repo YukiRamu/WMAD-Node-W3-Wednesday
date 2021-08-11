@@ -1,4 +1,9 @@
 /* Encryption Process Practice */
+// can be upgraded
+// check cli parameter and make switch case statement
+// read file and encrypt the test inside
+// -> try in Thursday's assignmet
+
 const crypto = require("crypto");
 
 //message to be encrypted
@@ -17,5 +22,5 @@ const data = hash.update(plainText, "utf-8");
 const gen_hash = data.digest("hex");
 
 console.log("plain text is ", plainText);
-console.log("hash : ",gen_hash); //encrypted message
+console.log("hash : ", gen_hash); //encrypted message
 

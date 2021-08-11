@@ -1,4 +1,9 @@
 /* Encryption Process Practice */
+// can be upgraded
+// check cli parameter and make switch case statement
+// read file and encrypt the test inside
+// -> try in Thursday's assignmet
+
 const crypto = require("crypto");
 
 //message to be encrypted
